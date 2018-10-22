@@ -1,0 +1,16 @@
+======= PRIMERA COISA ==============
+apagar em database-migrations os arquivos que constarem
+apagar o arquivos welcome na viwes
+
+
+========COMANDO DE INSTALACAO========
+composer create-project --prefer-dist laravel/laravel blog
+
+=======COMANDO PARA CRIAR AS TABELAS==========
+php artisan migrate
+
+============== CRIA UM CONTROLER COM RESOURCE =============
+php artisan make:controller noticiasController --resource
+
+=================RESET BASE DE DADOS =================
+php artisan migrate:reset
